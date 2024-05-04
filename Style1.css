@@ -82,6 +82,7 @@ header {
 .slogan {
    animation: slideInSlogan 1s ease-out;
    margin-bottom:-50;
+   font-size: 18;
 }
 
 @keyframes slideInSlogan {
