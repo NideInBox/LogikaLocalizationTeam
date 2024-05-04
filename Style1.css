@@ -1,0 +1,200 @@
+@font-face {
+   font-family: CaviarDreams; src: url('CaviarDreams.ttf');
+} 
+@font-face {
+   font-family: AvantGardeGothic; src: url('AvantGardeGothicC.otf');
+} 
+
+header img {
+   height: 100;
+
+   animation: slideInLogo 1s ease-out;
+}
+
+h2, h1, h3{
+   font-family: AvantGardeGothic;
+   color: white;
+}
+p, h4, ul{
+   font-family: CaviarDreams;
+   color: white;
+   margin-bottom: 0;
+   margin-top: 20;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #000000;
+}
+
+.navbar {
+   font-weight:bold;
+   background-color: #ffffff;
+   width:100%;
+   padding: 10px 0;
+   background-position: top;
+   position: fixed;
+   z-index: 1;
+}
+
+.navbar ul {
+   list-style: none;
+   margin: 10;
+   text-align: right;
+}
+
+.navbar li {
+   display: inline-block;
+}
+
+.navbar a {
+   font-family: CaviarDreams;
+   color: #b7b7b7;
+   text-decoration: none;
+   padding: 10px 20px;
+   transition: 0.3s;
+}
+
+.navbar a:hover {
+   text-size-adjust: 100;
+   color: #666666;
+   letter-spacing: 2px;
+}
+
+section {
+
+   padding-top: 70px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 100px;
+}
+
+header {
+   background-image: url('Batdr1.jpeg');
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding: 90px 0;
+}
+
+.slogan {
+   animation: slideInSlogan 1s ease-out;
+   margin-bottom:-50;
+}
+
+@keyframes slideInSlogan {
+   0% {
+       transform: translateX(-50%);
+       opacity: 0;
+   }
+   100% {
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+@keyframes slideInLogo {
+   0% {
+       transform: translateX(100%);
+       opacity: 0;
+   }
+   100% {
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+
+
+.ProjectsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.item {
+   width: 30%;
+   margin: 20px 2px 2px 2px;
+   text-align: center;
+}
+
+.item img {
+   width: 100%;
+}
+
+.GalleryItem {
+   width: 20%;
+   margin: 20px 2px 2px 2px;
+   text-align: center;
+}
+
+.GalleryItem img {
+   width: 100%;
+}
+.NewsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.NewsItem {
+   width: 30%;
+   margin: 20px 15px 2px 2px;
+   text-align: center;
+}
+
+.NewsItem img{
+   width: 100%;
+   height: calc(100vw / 6.5);
+}
+.NewsItem iframe{
+   width: 100%;
+   height: calc(100vw / 6.5);
+}
+.NewsItem p {
+   text-align: left;
+}
+.item p {
+   margin-top: 10px;
+   font-size:12px;
+}
+
+.Gallery_Img {
+   transition: 0.2s;
+   box-shadow: 0px 0px 9px 0px;
+}
+.Gallery_Img:hover {
+   cursor: zoom-in;
+   scale: 1.7;
+   transition: 0.2s;
+   box-shadow: 0px 0px 39px 0px rgba(255,255,255,1);
+}
+a {
+   text-decoration: none;
+   transition: 0.25s;
+   font-weight: bold;
+   color: black;
+ }
+ .LinkImg {
+   width:40px;
+   transition: 0.25s;
+ }
+ .LinkImg:hover {
+   transform:scale(1.15);
+   transition: 0.25s;
+ }
+footer {
+   background-color: #ffffff;
+   color: #ffffff;
+   padding: 20 0;
+   bottom: 0;
+   width: 100%;
+ }
+ 
+ .footer-container {
+   display:flex;
+   justify-content: space-around;
+ }
+ .column ul li {
+   margin-bottom: 10px;
+   list-style-type: none;
+ }
