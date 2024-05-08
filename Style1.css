@@ -5,6 +5,10 @@
    font-family: AvantGardeGothic; src: url('AvantGardeGothicC.otf');
 } 
 
+html {
+  scroll-behavior: smooth;
+}
+
 header img {
    height: 100;
 
